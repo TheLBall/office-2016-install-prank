@@ -8,4 +8,5 @@ Case vbYes
 response = "Sorry, you cannot upgrade from this version of Windows."
 Case vbNo
 response = "Sorry, Office 2016 is incompatable with your version of Windows."
+End Select
 MsgBox response, 0+16, "Office 2016 could not be installed."
